@@ -19,7 +19,7 @@ def ler_arquivo(arquivo):
 
 
 def media_notas(nome_arquivo):
-    arquivo = open('notas.txt', 'r')
+    arquivo = open(nome_arquivo, 'r')
     aluno_notas = arquivo.read()
     aluno_notas = aluno_notas.split('\n')
     lista_media = []
@@ -43,4 +43,4 @@ def move_arquivo(nome_arquivo):
 
 if __name__ == '__main__':
     print(media_notas('notas.txt'))
-    copia_arquivo('notas.txt')
+    #copia_arquivo('.\\Python Básico DIO\\notas.txt')
