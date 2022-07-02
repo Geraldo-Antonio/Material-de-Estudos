@@ -2,13 +2,12 @@ from unittest import main
 import os
 
 
-
 if __name__ == "__main__":
     lista = [10 , 5]
     cwd = os.getcwd()  # Get the current working directory (cwd)
     files = os.listdir(cwd)  # Get all the files in that directory
     print("Files in %r: %s" % (cwd, files))
-    arquivo = open("notas.txt", "r")
+    arquivo = open("C:\\Users\\Geraldo\\Documents\\Geraldo\\Material-de-Estudos\\Python Básico DIO\\notas.txt", "r")
     try:
         divisao = 10/1
         numero = lista[1]
@@ -24,3 +23,4 @@ if __name__ == "__main__":
     finally:
         print("Sempre executa")
         print(arquivo.read())
+        arquivo.close()
