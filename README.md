@@ -14,7 +14,7 @@ Contribuições são bem-vindas! Se você tem algum material educacional útil q
 
 ## Licença
 
-Este repositório é distribuído sob a licença [Sua Licença](LICENSE). Veja o arquivo LICENSE para mais detalhes.
+Este repositório é distribuído sob a licença [Licença](LICENSE). Veja o arquivo LICENSE para mais detalhes.
 
 ---
 
